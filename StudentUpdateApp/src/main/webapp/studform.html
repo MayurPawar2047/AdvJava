@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h2>Student INFO</h2>
+<form action="StudentServlet" method="get">
+ID : <input type="text" name="id"> <br>
+Name : <input type="text" name="uname"> <br>
+Marks : <input type="text" name="marks"> <br>
+<input type="submit" value="SUBMIT">
+</form>
+
+<hr>
+<h2>Delete Student</h2>
+<form action="StudentDeleteServlet" method="get">
+ID : <input type="text" name="did"> <br>
+<input type="submit" value="SUBMIT">
+</form>
+
+<h2> UPdate Student</h2>
+<form action="StudentUpdateServlet" method="get">
+ID : <input type="text" name="eid"> <br>
+Name : <input type="text" name="uname"> <br>
+Marks : <input type="text" name="marks"> <br>
+<input type="submit" value="SUBMIT">
+</form>
+<hr>
+
+<h2>
+<a href="ReadServlet"> DISPLAY RECORD  </a> 
+
+</h2>
+
+
+</body>
+</html>
